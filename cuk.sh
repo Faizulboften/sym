@@ -1,4 +1,26 @@
 #!/system/bin/bash"
+red='\e[1;31m'
+green='\e[1;32m'
+yellow='\e[1;33m'
+blue='\e[1;34m'
+magenta='\e[1;35m'
+cyan='\e[1;36m'
+white='\e[1;37m'
+#gantikodewarna
+k="\033[33;1m"
+m="\033[31;1m"
+pu="\033[39;1m"
+p="\033[36;1m"
+b="\033[34;1m"
+h="\033[32;1m"
+JAM=`date +%H`
+MENIT=`date +%M`
+DETIK=`date +%S`
+TANGGAL=`date +%d`
+BULAN=`date +%m`
+TAHUN=`date +%Y`
+mp="\033[41;1;39m"
+o="\033[0m"
 clear
 echo "\033[90m"
 read -p "Subscribe My Chanel [ y/t ] : " d;
@@ -64,7 +86,7 @@ clear
 else
 echo "anda salah memasukan input!!!!"
 sleep 2
-sh tools.sh
+sh cuk.sh
 fi
 clear
 sleep 1
@@ -73,8 +95,10 @@ sleep 1
 clear
 echo "\033[37;1m  <═════════════════════════════════════════>"
 echo "  <\>\033[37;1m  WELCOME TO MY TOOLS\033[31;1m|\033[37;1mTHE X-FaizulBoften   \033[31;1m<\>"
+echo "\033[37;1m  <═════════════════════════════════════════>" 
+echo ${b} "                   <<•  @ROOT  •>>"
 echo "\033[37;1m  <═════════════════════════════════════════>"
-sleep 2       
+sleep 5      
 echo
 echo "\033[90m{\033[1;91m=====================================\033[90m}"
 echo "\033[90m Coded\033[1;91m  :\033[1;93mFaizul"
