@@ -6,25 +6,80 @@ if [ $d = "y" ]:
 then
    echo "\033[1;93mLoading\033[90m...\033[1;97m"
    sleep 2
-   termux-open "https://youtu.be/edE2zE6k-e8"
+   termux-open "https://www.youtube.com/channel/UCSxkYGsMV5DvXz4GQJskl9Q"
 elif [ $d = "t" ]:
 then
    echo "\033[1;93mNext\033[90m...\033[1;97m"
-   sleep 1
+   sleep 5
 else
    echo "\033[1;91mWrong Input!!!\033[1;97m"
-   sleep 2
-   sh bot.sh
+   sleep 5
+   sh cuk.sh
 fi
 echo
-echo "\033[1;96m_  _ _  _ _   _ _  _ _     \033[1;91m____ ___  _  _"
-echo "\033[1;96m|\ | |  |  \_/  |  | |     \033[1;91m|__| |__] |_/ "
-echo "\033[1;96m| \| |__|   |   |__| |___  \033[1;91m|  | |    | \_"
+echo "         ${m}[ ${pu}TIME ZONE INDONESIA ${m}]"
+echo "${b}   ╔════════╗${b} ╔═══════🕜═╗${b} ╔═══════🕛═╗"
+echo "${b}   ║${k}JAM:"${m}[${pu}$JAM${m}]${b}║~${b}║${k}MENIT:"${m}[${pu}$MENIT${m}]${b}║${b}~║${k}DETIK:${m}["${pu}$DETIK${m}]${b}║
+echo "${b}   ╚════════╝${b} ╚══════════╝${b} ╚══════════╝"
+echo "               ${m}[ ${pu}KALENDER ${m}]"
+echo "${b}╔════════════╗${b} ╔══════════╗${b} ╔════════════╗"
+echo "${b}║${k}TANGGAL:"${m}[${pu}$TANGGAL${m}]${b}║${b}~║${k}BULAN:"${m}[${pu}$BULAN${m}]${b}║${b}~║${k}TAHUN:${m}["${pu}$TAHUN${m}]${b}║
+echo "${b}╚════════════╝${b} ╚══════════╝${b} ╚════════════╝"
+echo "${k}<════════════════════════════════════════>"
+echo
+
+
+limit=100
+sleep 1
+echo " \033[31;1m    ▇▇▇▇▇▇▇"
+echo "\033[37;1m     ▇▇▇▇▇▇▇"
+echo "\033[31;1mSELAMAT DATANG \033[37;1mDi Tools Faizul Kontol lu"
+sleep 1
+echo -n "My Name Is?:"
+read nama;
+sleep 3
+echo "Hallo salam kenal Sad \033[31;1m[$nama]"
+sleep 3
+echo "\033[32;1mJangan Lupa subscribe channel admin woke:)"
+sleep 3
+clear
+echo -n "apakah anda sudah subscribe channel admin? y/n :"
+read pilih
+if [ $pilih = "y" ];
+then
+sleep 2
+echo "Terimakasih sudah subscribe channel admin"
+sleep 2
+clear
+elif [ $pilih = "n" ];
+then
+sleep 2
+echo "SILAHKAN SUBSCRIBE CHANNEL ADMIN"
+termux-open-url "https://www.youtube.com/channel/UCSxkYGsMV5DvXz4GQJskl9Q"
+sleel 4
+echo "MAKASIH SUDAH DUKUNG  CHANNEL ADMIN^_^"
+sleep 2
+clear
+clear
+else
+echo "anda salah memasukan input!!!!"
+sleep 2
+sh tools.sh
+fi
+clear
+sleep 1
+python2 loding692
+sleep 1
+clear
+echo "\033[37;1m  <═════════════════════════════════════════>"
+echo "  <\>\033[37;1m  WELCOME TO MY TOOLS\033[31;1m|\033[37;1mTHE X-FaizulBoften   \033[31;1m<\>"
+echo "\033[37;1m  <═════════════════════════════════════════>"
+sleep 2       
 echo
 echo "\033[90m{\033[1;91m=====================================\033[90m}"
-echo "\033[90m Coded\033[1;91m  :\033[1;93mRym"
-echo "\033[90m Youtube\033[1;91m:\033[1;93mMaulana RyM"
-echo "\033[90m Github\033[1;91m :\033[1;96mhttps://github.com/MaulanaRyM"
+echo "\033[90m Coded\033[1;91m  :\033[1;93mFaizul"
+echo "\033[90m Youtube\033[1;91m:\033[1;93mFaizul Boften"
+echo "\033[90m Github\033[1;91m :\033[1;96mhttps://github.com/Faizulboften"
 echo "\033[90m{\033[1;91m=====================================\033[90m}"
 echo
 echo "\033[90m=\033[1;91m--------------------------\033[90m="
